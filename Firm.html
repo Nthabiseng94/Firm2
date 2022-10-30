@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firm Website</title>
     <link rel="stylesheet" href="Firm.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome
+    /fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 
 <body>
@@ -16,21 +18,78 @@
                 <img src="images/logo.png">
                 <span>Firm League.</span>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Location</a></li>
-            </ul>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+
+                    <li><a href="#">DONATION</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <select name="SERVICE" id="services">
+                        
+                        <option value="volvo">services</option>
+                        
+                        <option value="saab">Housing</option>
+                        <option value="saab">Education</option>
+                        <option value="saab">Health Care</option>
+                        <option value="saab">Social welfare</option>
+                        <option value="saab">Transport</option>
+                      </optgroup>
+                     
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                      </optgroup>
+
+                    </select>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
         </nav>
 
         <div class="content">
-            <h1 class="slide-left"> The<br>Future</h1>
-            <p class="slide-left"> This is the next generation of our company. We're make collection of data in all categories </p>
+            <b></b>
+            <h3 class="slide-left">Solving problems, improving lives.</h3>
+            </b>
+            <p class="slide-left">we ensure that data analytics are democratised across every government department, this is to ensure that front line staff in every government sector are then empowered with the timely insights they need to provide excellent services to citizens.</p>
             <diV class="links slide-left">
                 <a href="#" class="btn">Learn More</a>
                 <a href="#"> Contact Us</a>
             </diV>
+        </div>
+        <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="" placeholder="Enter Password Here">
+            <br>
+            <p><button class="btnn"><a href="#">Login</a></button></p>
+
+            <p class="link">Don't have an account<br>
+                <a href="#">Sign up </a> here</a>
+            </p>
+            <p class="liw">Log in with</p>
+
+            <div class="icons">
+                <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-google"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-skype"></ion-icon>
+                </a>
+            </div>
+
         </div>
     </div>
 </body>
